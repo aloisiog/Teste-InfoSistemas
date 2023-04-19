@@ -1,0 +1,30 @@
+id_OrdemServico
+
+condominio-bloco-local-andar-area --> Id_QrCode
+
+
+natureza
+
+data abertura
+data max
+dataini
+data terminar
+solicitante
+
+
+descricao
+observacao
+instrucao
+
+status ( Finalizada,aberto, iniciada, terminada, aguardando)D
+avaliacao
+tipo OS = Modulo?
+
+tipo Equ
+
+problema
+
+Serv Executado
+TEcnico
+
+Empresa

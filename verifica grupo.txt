@@ -1,0 +1,19 @@
+ if VerificaGrupo('id_equipa') then
+  begin
+   Showmessage('existe dados'+'- ' +'True');
+   GrupoEquipa.Enabled:=True;
+  end else
+  begin
+   Showmessage('nao existe dados'+'- ' +'False');
+   GrupoEquipa.Enabled:=False;
+  end;
+
+
+ lt.id_condominio=:idcond and
+ lt.dataProgr>=:dataIni and
+ lt.dataProgr<=:dataFim
+
+
+ lt.id_condominio='123'
+ lt.dataProgr>='2017-09-01' and
+ lt.dataProgr<='2017-11-30'

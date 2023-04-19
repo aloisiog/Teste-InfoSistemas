@@ -1,0 +1,10 @@
+Select u.Id_usuario, u.id_pessoa, u.Login,u.Senha,u.Id_Modulo,
+       u.Id_grupo, p.Id_pessoa,p.Nome, p.DataNasce, p.Email, p.Telefone,
+       p.Celular, p.TipoPessoa, p.Sexo
+
+ from usuario u left outer join pessoa p on u.id_pessoa=p.Id_pessoa
+
+
+
+
+Select id_SubTarefa from ListaSubTarefa where Id_SubTarefa='WI0FB6741902130263SUB005'

@@ -1,0 +1,70 @@
+cor edit
+$00E0E0E0
+
+Cor Toolbar/rectangle
+#FFEEFFFB
+
+
+#FFEEEDED
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14995306
+
+FieldByName('').AsString
+
+Modulo
+servico
+area
+equipamento
+
+
+''''++''''+', '
+
+
+idlistatarefa
+
+
+
+Function ArrumaData(datadig : String) : String;stdcall;
+begin
+    result := copy(datadig,7,4)+'-'+copy(datadig,4,2)+'-'+copy(datadig,1,2);
+end;
+
+
+MESDESC
+Quantidade
+MONTH(DIA)
+
+
+
+   Close;
+   with dbgrafico.series[0] do
+    begin
+      DataSource:=dm.QryGeraMensal;
+      XLabelsSource:= 'MESDESC';
+      YValues.ValueSource:= 'quantidade';
+      CheckDataSource;
+    end;
+   open;
+
+
+Qrcode. OS.  

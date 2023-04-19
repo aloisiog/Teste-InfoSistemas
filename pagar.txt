@@ -1,0 +1,38 @@
+PAGAR
+tipo <E/S>:
+
+
+numero documento
+
+tipo Documento?
+para quem pagar:
+classificacao
+centro de custo:
+vencimento:
+exercicio:
+valor documento
+
+multa
+juros
+descontos
+tarifa banco
+
+valor total
+Status(aberto,quitado, pendente, cancelado)
+
+
+data de cadastro:
+
+
+valor pago
+data pagamento
+conta corrente
+forma de pagamento
+
+
+data cancelamento
+motivo cancelar
+
+observações(Anotações) 
+
+

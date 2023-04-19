@@ -1,0 +1,9 @@
+Dependente
+id_dependente
+id_morador
+nome
+grau parentesco
+nascimento
+celular
+email
+autorizado

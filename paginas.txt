@@ -1,0 +1,12 @@
+http://www.projetoacbr.com.br/forum/files/file/7-acbrinstall-trunk2/
+
+
+[Window Title]
+Error
+
+[Content]
+Can't load package C:\Aloisio\componentes\ACBR\trunk2\Lib\Delphi\LibD22\ACBr_NFe.bpl.
+Não foi possível encontrar o módulo especificado.
+Do you want to attempt to load this package the next time a project is loaded?
+
+[Yes] [No]

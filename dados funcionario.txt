@@ -1,0 +1,65 @@
+Documentos
+
+ - id_documento   - 
+ - id_funcionario - 
+ - documento      -
+ - numero documento-
+ - orgao expedidor -
+ 
+ 
+
+
+horario
+
+id horario
+horario inicio
+horario almoço
+horario retorno
+horario saida
+dia semana
+turno
+
+
+contrato
+
+id_contrato
+id_func
+admissao
+demissao
+adm_empresa
+Terceirizada
+
+
+terceirizadas
+
+id_terceirizada
+razao
+telefone
+celular
+contato
+
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+  Jpeg : TJpegImage;
+begin
+ if Opdfoto.execute then
+    IM.Picture.LoadFromFile(OPDFoto.FileName);
+
+  if OPDfoto.FileName <> '' then
+  begin
+    Jpeg := TJpegImage.Create;
+    Jpeg.LoadFromFile(OPDFoto.FileName);
+
+    qry.Close;
+    qry.SQL.Clear;
+    qry.SQL.Add('INSERT INTO TESTE(NOME, FOTO) VALUES (:pnome, :pfotoant)');
+    qry.ParamByName('pnome').AsString := edNome.Text;
+    qry.ParamByName('pfotoant').Assign(Jpeg);
+    qry.ExecSQL;
+
+    Jpeg.Free;
+  end;
+end;
+
+

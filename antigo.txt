@@ -1,0 +1,60 @@
+{var
+objL:Tfunction;
+begin
+  objl:=Tfunction.Create;
+  dfunc:=TContrato.Create;
+ if Selected then
+  begin
+  if btsair.Caption='Cancela&r'  then
+     testemem('CADASTRO EM EDIÇÃO OU INCLUSÃO')
+   else
+   begin
+     try
+      if dfunc.PegaDados('SIM',item.Caption,'FUNCIONARIO')  then
+       begin
+        IDFunc:=item.Caption;
+        //testemem(IDFunc);
+        objl.limpacampos;
+        objl.LimpaFoto;
+        dfunc.ClearDataSet;
+        alimentacampos;
+        btAlterar.Enabled:=True;
+        btExcluir.Enabled:=True;
+       end;
+
+
+     except on E: exception  do
+       showmessage(item.Caption+' - '+e.Message);
+     end;
+   end;
+  end;
+  dfunc.Free;
+  objl.Free;          }
+
+
+
+praca pio 10, 55 sala 801 ao lado da candelaria
+
+Jessica
+
+
+
+local
+
+setores
+
+tipos equipamentos
+
+equipamentos
+
+função
+
+modulos
+
+
+
+
+
+
+
+

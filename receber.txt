@@ -1,0 +1,34 @@
+RECEBER
+tipo<E/S>:
+
+codigo 
+numero documento
+unidade? de quem receber
+
+plano de contas
+centro de custo
+vencimento
+exercicio
+valor documento
+
+{numero parcela
+
+tabela para pagamento a prazo
+ }
+
+multa
+juros
+desconto
+tarifa bancaria
+
+valor total
+status
+data cadastro
+
+valor recebido
+data quitado
+conta corrente
+
+
+data cancelamento
+motivo cancelamento
